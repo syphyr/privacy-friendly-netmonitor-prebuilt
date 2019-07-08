@@ -20,7 +20,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE       := privacy-friendly-netmonitor
-LOCAL_SRC_FILES    := app-release-unsigned.apk
+LOCAL_SRC_FILES    := netmonitor.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE  := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
 include $(BUILD_PREBUILT)
